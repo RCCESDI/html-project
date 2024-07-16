@@ -45,46 +45,103 @@
         </span>
     </nav>
     <div class="background-color">
-        <table class="table">
-            <tr>
-                <td class="width20"><label for="firstName">First Name</label></td>
-                <td class="width60">
-                    <input class="input-width" type="text" name="firstName" id="firstName">
-                </td>
-                <td class="width20"></td>
-            </tr>
-            <tr>
-                <td class="width20"><label for="lastName">Last Name</label></td>
-                <td class="width60">
-                    <input class="input-width" type="text" name="lastName" id="lastName">
-                </td>
-                <td class="width20"></td>
-            </tr>
-            <tr>
-                <td class="width20"><label for="email">Email</label></td>
-                <td class="width60">
-                    <input class="input-width" type="email" name="email" id="email">
-                </td>
-                <td class="width20"></td>
-            </tr>
-            <tr>
-                <td class="width20"><label for="phone">Mobile Number</label></td>
-                <td class="width60">
-                    <input class="input-width" type="number" name="phone" id="phone">
-                </td>
-                <td class="width20"></td>
-            </tr>
-            <tr>
-                <td class="width20"><label>Gender</label></td>
-                <td class="width60">
-                    <input class="" type="radio" name="gender" id="male">
-                    <label for="male">Male</label>
-                    <input class="" type="radio" name="gender" id="female">
-                    <label for="female">Female</label>
-                </td>
-                <td class="width20"></td>
-            </tr>
-        </table>
+        <form>
+            <table class="table">
+                <tr>
+                    <td class="width20"><label for="firstName">First Name</label></td>
+                    <td class="width60">
+                        <input class="input-width" type="text" name="firstName" id="firstName">
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+                <tr>
+                    <td class="width20"><label for="lastName">Last Name</label></td>
+                    <td class="width60">
+                        <input class="input-width" type="text" name="lastName" id="lastName">
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+                <tr>
+                    <td class="width20"><label for="email">Email</label></td>
+                    <td class="width60">
+                        <input class="input-width" type="email" name="email" id="email">
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+                <tr>
+                    <td class="width20"><label for="phone">Mobile Number</label></td>
+                    <td class="width60">
+                        <input class="input-width" type="number" name="phone" id="phone">
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+                <tr>
+                    <td class="width20"><label>Gender</label></td>
+                    <td class="width60">
+                        <input class="" type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <input class="" type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+                <tr>
+                    <td class="width20"><label for="dob">Date of Birth</label></td>
+                    <td class="width60">
+                        <input class="input-width" type="date" name="dob" id="dob">
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+                <tr>
+                    <td class="width20"><label for="address">Address</label></td>
+                    <td class="width60">
+                        <!-- <input class="input-width" type="text" name="address" id="address" > -->
+                        <textarea class="input-width" name="address" id="address"></textarea>
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+                <tr>
+                    <td class="width20"><label for="qualification">Qualification</label></td>
+                    <td class="width60">
+                        <select name="qualification" id="qualification">
+                            <option value="none">Select Qualification</option>
+                            <option value="SSC">SSC</option>
+                            <option value="HSC">HSC</option>
+                        </select>
+                        <!-- <input class="input-width" type="text" name="address" id="address" > -->
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+                <tr>
+                    <td class="width20"><label>Spelization</label></td>
+                    <td class="width60">
+                        <div>
+                            <input type="checkbox" id="computer">
+                            <label for="computer">Computer Science</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="bba">
+                            <label for="bba">BBA</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="eee">
+                            <label for="eee">EEE</label>
+                        </div>
+                        <!-- <input class="input-width" type="text" name="address" id="address" > -->
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+                <tr>
+                    <td class="width20"></td>
+                    <td class="width60">
+                        <input type="submit">
+                        <input type="reset">
+                    </td>
+                    <td class="width20"></td>
+                </tr>
+            </table>
+        </form>
     </div>
 </body>
+
 </html>
